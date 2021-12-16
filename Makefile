@@ -5,8 +5,8 @@ NAME="portscan-prometheus-exporter"
 DESCRIPTION="Prometheus exporter for porst scan"
 VERSION="1.0.0"
 
-DOCKERHUB_NAMESPACE="monitoring"
-KUBERNETES_NAMESPACE="kube-system"
+DOCKERHUB_NAMESPACE="mirage2012"
+KUBERNETES_NAMESPACE="monitoring"
 REPOSITORY="index.docker.io"
 FULL_PATH=$(REPOSITORY)/$(DOCKERHUB_NAMESPACE)/$(NAME)
 
